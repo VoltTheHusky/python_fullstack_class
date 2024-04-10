@@ -1,5 +1,5 @@
 rabotniki = ["Света", "Маша", "Олег", "Паша"]
-chet_dni = rabotniki[:2]
+chet_dni = rabotniki[::2]
 nechet_dni = rabotniki[1::2]
 print(f"В чётные дни работает: {chet_dni}")
 print(" ")
